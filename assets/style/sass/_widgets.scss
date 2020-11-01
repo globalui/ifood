@@ -1,0 +1,53 @@
+.how-it-work{
+
+  .how-it-work-picture {
+    img{
+      border-radius: 0px 43px;
+      filter: drop-shadow(-25px 25px 0px #EDEDED);
+    }
+  }
+
+  .meal-plan-btn{
+    max-width: 480px;
+    width: 100%;
+  }
+}
+
+
+.custom-accordion{
+  .accordion-header{
+    padding: 10px;
+  }
+  [aria-expanded="true"]{
+    .fa-plus:before {
+      content: "\f068";
+    }
+  }
+}
+
+.bg-figure-absolute{
+  height: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index:0;
+
+  img{
+    width:100%;
+  }
+}
+
+.bg-image-section{
+
+  @media (max-width:992px) {
+
+    padding-top: 200px !important;
+
+    .bg-figure-absolute{
+      width:70%;
+      left: 0;
+      right: unset;
+    }
+  }
+}

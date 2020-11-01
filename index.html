@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>IFunctional Food</title>
+
+    <link rel="stylesheet" href="assets/vendors/fontawesone/css/all.min.css">
+    <link rel="stylesheet" href="assets/style/dist/css/app.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.svg" alt="Logo SVG">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Performance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="meal-plans.html">Meal Plans</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Food safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="#">Get Start</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero banner-bg">
+        <div class="owl-carousel owl-theme hero-owl" id="owlHeroBanner">
+            <div class="item">
+
+                <div class="hero-caption d-flex position-absolute text-white">
+                    <div class="container">
+                        <div class="row h-100">
+                            <div class="col-12 col-lg-6 position-relative">
+                                <div class="banner-caption-card p-4 p-lg-5">
+                                    <h5 class="t-large">Healthy is Easy</h5>
+                                    <p class="t-small">
+                                        Ditch the meal Kits and put your meal prep on autopilot with weekly delivery.
+                                    </p>
+                                    <div class="d-flex justify-content-start align-items-center mt-4">
+                                        <a href="#" class="btn btn-lg btn-primary">View our plans</a>
+                                        <em class="px-3">OR</em>
+                                        <a href="#" class="text-white btn btn-lg px-0"
+                                           style="text-decoration: underline">View our plans</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <picture class="bg-figure w-100 h-100">
+                    <source media="(min-width: 1200px)" srcset="dump/hero/banner-1200.jpg">
+                    <source media="(min-width: 667px)" srcset="dump/hero/banner-900.jpg">
+                    <img src="dump/hero/banner.jpg" alt="bg tabs">
+                </picture>
+            </div>
+        </div>
+    </section>
+    <section class="py-lg-5 py-3 custom-tabs-section position-relative overflow-hidden">
+        <div class="container position-relative custom-tabs-container">
+            <div class="row">
+                <div class="col-12 col-lg-8 mx-auto text-center my-5">
+                    <h3 class="text-white h2 font-weight-bold">Chef-cooked meal Plans designed to give <br> your body
+                        the fuel it needs.</h3>
+                    <p class="h6">Switch plans and control your subscription. Find what works for you and
+                        we’ll help you stick to it with easy meal delivery every Friday.</p>
+                </div>
+                <div class="col-12 col-lg-12 mx-auto text-white">
+                    <ul class="nav nav-pills nav-fill mb-3 text-center overflow-auto text-nowrap" id="pills-tab"
+                        role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Protein-tab" data-toggle="pill" href="#pills-Protein"
+                               role="tab" aria-controls="pills-Protein" aria-selected="false">Protein +</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-Keto-tab" data-toggle="pill" href="#pills-Keto"
+                               role="tab" aria-controls="pills-Keto" aria-selected="true">Keto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Paleo-tab" data-toggle="pill" href="#pills-Paleo"
+                               role="tab" aria-controls="pills-Paleo" aria-selected="false">Paleo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Veganstandard-tab" data-toggle="pill"
+                               href="#pills-Veganstandard"
+                               role="tab" aria-controls="pills-Veganstandard" aria-selected="false">Vegan standard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-Veganlowcarb-tab" data-toggle="pill"
+                               href="#pills-Veganlowcarb"
+                               role="tab" aria-controls="pills-Veganlowcarb" aria-selected="false">Vegan low carb</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content " id="pills-tabContent">
+                        <div class="tab-pane fade" id="pills-Protein" role="tabpanel"
+                             aria-labelledby="pills-Protein-tab">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <h4 class="font-weight-bold">Protein +</h4>
+                                    <p>
+                                        Higher in fats, lean with protein and low carb. Enjoyable and remarkably easy
+                                        Keto.
+                                        <br>
+                                        Everything needed for a fulfilling meal.
+                                    </p>
+                                    <h5 class="font-weight-bold mt-lg-5 mt-3">Average Macros</h5>
+                                    <ul class="d-grid grid-col-xs-2 grid-col-lg-4 py-3 list-unstyled list-items-with-icon">
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/protien.svg" alt="protien">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Protien</span>
+                                                <h5 class="h5 font-weight-bold">26g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/carbs.svg" alt="carbs">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">carbs</span>
+                                                <h5 class="h5 font-weight-bold">10g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/fat.svg" alt="fat">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Fat</span>
+                                                <h5 class="h5 font-weight-bold">35g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/cal.svg" alt="cal">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Cal</span>
+                                                <h5 class="h5 font-weight-bold">450</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="btn-component py-lg-3 pt-3 pb-5">
+                                        <button class="btn btn-block btn-success px-lg-5">Start protein+ plan</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 text-lg-right pl-5">
+                                    <picture class="left-shadow-with-radius">
+                                        <img src="dump/keto.jpg" alt="bg tabs" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="pills-Keto" role="tabpanel"
+                             aria-labelledby="pills-Keto-tab">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <h4 class="font-weight-bold">Keto</h4>
+                                    <p>
+                                        Higher in fats, lean with protein and low carb. Enjoyable and remarkably easy
+                                        Keto.
+                                        <br>
+                                        Everything needed for a fulfilling meal.
+                                    </p>
+                                    <h5 class="font-weight-bold mt-lg-5 mt-3">Average Macros</h5>
+                                    <ul class="d-grid grid-col-xs-2 grid-col-lg-4 py-3 list-unstyled list-items-with-icon">
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/protien.svg" alt="protien">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Protien</span>
+                                                <h5 class="h5 font-weight-bold">26g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/carbs.svg" alt="carbs">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">carbs</span>
+                                                <h5 class="h5 font-weight-bold">10g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/fat.svg" alt="fat">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Fat</span>
+                                                <h5 class="h5 font-weight-bold">35g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/cal.svg" alt="cal">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Cal</span>
+                                                <h5 class="h5 font-weight-bold">450</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="btn-component py-lg-3 pt-3 pb-5">
+                                        <button class="btn btn-block btn-success px-lg-5">Start protein+ plan</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 text-lg-right pl-5">
+                                    <picture class="left-shadow-with-radius">
+                                        <img src="dump/keto.jpg" alt="bg tabs" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Paleo" role="tabpanel"
+                             aria-labelledby="pills-Paleo-tab">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <h4 class="font-weight-bold">Paleo</h4>
+                                    <p>
+                                        Higher in fats, lean with protein and low carb. Enjoyable and remarkably easy
+                                        Keto.
+                                        <br>
+                                        Everything needed for a fulfilling meal.
+                                    </p>
+                                    <h5 class="font-weight-bold mt-lg-5 mt-3">Average Macros</h5>
+                                    <ul class="d-grid grid-col-xs-2 grid-col-lg-4 py-3 list-unstyled list-items-with-icon">
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/protien.svg" alt="protien">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Protien</span>
+                                                <h5 class="h5 font-weight-bold">26g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/carbs.svg" alt="carbs">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">carbs</span>
+                                                <h5 class="h5 font-weight-bold">10g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/fat.svg" alt="fat">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Fat</span>
+                                                <h5 class="h5 font-weight-bold">35g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/cal.svg" alt="cal">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Cal</span>
+                                                <h5 class="h5 font-weight-bold">450</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="btn-component py-lg-3 pt-3 pb-5">
+                                        <button class="btn btn-block btn-success px-lg-5">Start protein+ plan</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 text-lg-right pl-5">
+                                    <picture class="left-shadow-with-radius">
+                                        <img src="dump/keto.jpg" alt="bg tabs" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Veganstandard" role="tabpanel"
+                             aria-labelledby="pills-Veganstandard-tab">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <h4 class="font-weight-bold">Vegan standard</h4>
+                                    <p>
+                                        Higher in fats, lean with protein and low carb. Enjoyable and remarkably easy
+                                        Keto.
+                                        <br>
+                                        Everything needed for a fulfilling meal.
+                                    </p>
+                                    <h5 class="font-weight-bold mt-lg-5 mt-3">Average Macros</h5>
+                                    <ul class="d-grid grid-col-xs-2 grid-col-lg-4 py-3 list-unstyled list-items-with-icon">
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/protien.svg" alt="protien">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Protien</span>
+                                                <h5 class="h5 font-weight-bold">26g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/carbs.svg" alt="carbs">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">carbs</span>
+                                                <h5 class="h5 font-weight-bold">10g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/fat.svg" alt="fat">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Fat</span>
+                                                <h5 class="h5 font-weight-bold">35g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/cal.svg" alt="cal">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Cal</span>
+                                                <h5 class="h5 font-weight-bold">450</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="btn-component py-lg-3 pt-3 pb-5">
+                                        <button class="btn btn-block btn-success px-lg-5">Start protein+ plan</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 text-lg-right pl-5">
+                                    <picture class="left-shadow-with-radius">
+                                        <img src="dump/keto.jpg" alt="bg tabs" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-Veganlowcarb" role="tabpanel"
+                             aria-labelledby="pills-Veganlowcarb-tab">
+                            <div class="row">
+                                <div class="col-12 col-lg-7">
+                                    <h4 class="font-weight-bold">Vegan low carb</h4>
+                                    <p>
+                                        Higher in fats, lean with protein and low carb. Enjoyable and remarkably easy
+                                        Keto.
+                                        <br>
+                                        Everything needed for a fulfilling meal.
+                                    </p>
+                                    <h5 class="font-weight-bold mt-lg-5 mt-3">Average Macros</h5>
+                                    <ul class="d-grid grid-col-xs-2 grid-col-lg-4 py-3 list-unstyled list-items-with-icon">
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/protien.svg" alt="protien">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Protien</span>
+                                                <h5 class="h5 font-weight-bold">26g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/carbs.svg" alt="carbs">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">carbs</span>
+                                                <h5 class="h5 font-weight-bold">10g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="border-right">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/fat.svg" alt="fat">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Fat</span>
+                                                <h5 class="h5 font-weight-bold">35g</h5>
+                                            </div>
+                                        </li>
+                                        <li class="p-2">
+                                            <span>
+                                                <img width="50" src="assets/images/icons/cal.svg" alt="cal">
+                                            </span>
+                                            <div class="li-caption pl-2">
+                                                <span class="w-100 d-block display-2">Cal</span>
+                                                <h5 class="h5 font-weight-bold">450</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="btn-component py-lg-3 pt-3 pb-5">
+                                        <button class="btn btn-block btn-success px-lg-5">Start protein+ plan</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-5 text-lg-right pl-5">
+                                    <picture class="left-shadow-with-radius">
+                                        <img src="dump/keto.jpg" alt="bg tabs" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <picture class="bg-figure position-absolute w-100 h-100">
+            <source media="(min-width: 1200px)" srcset="dump/bg-tabs-12000.jpg">
+            <source media="(min-width: 992px)" srcset="dump/bg-tabs-900.jpg">
+            <img src="dump/bg-tabs-768.jpg" alt="bg tabs">
+        </picture>
+    </section>
+    <section class="py-lg-5 py-3 bg-light how-it-work">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h3 class="h2 font-weight-bold">How it works</h3>
+                    <p class="h6">
+                        A whole range of fresh, nutritious, non-gmo meals delivered straight to your door
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <ol class="ol-list-large list-unstyled">
+                        <li class="mb-3 mb-lg-4">
+                            <span class="number">01</span>
+                            <div class="ml-4 pb-3 border-bottom">
+                                <h4 class="title">Pick your meal plan</h4>
+                                <p>
+                                    You can choose a delicious weekly meal plan in just a few minutes. Whether you have
+                                    dietary restrictions or a...
+                                </p>
+                                <a href="#" class="text-dark font-weight-bold
+                                 underline">Know More</a>
+                            </div>
+                        </li>
+                        <li class="mb-3 mb-lg-4">
+                            <span class="number">02</span>
+                            <div class="ml-4 pb-3 border-bottom">
+                                <h4 class="title">Customize your options</h4>
+                                <p>
+                                    When it comes to eating healthy, the more options the better. That’s why our chefs
+                                    craft our menus with variety in mind
+                                </p>
+                                <a href="#" class="text-dark font-weight-bold
+                                 underline">Know More</a>
+                            </div>
+                        </li>
+                        <li class="mb-3 mb-lg-4">
+                            <span class="number">03</span>
+                            <div class="ml-4 pb-3">
+                                <h4 class="title">Schedule and get delivered</h4>
+                                <p>
+                                    Our meals ship fresh and they arrive fresh. They are never frozen. They come ready
+                                    for the microwave or the stove.
+                                </p>
+                                <a href="#" class="text-dark font-weight-bold
+                                 underline">Know More</a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-12 col-lg-6 text-lg-right">
+                    <div class="mb-5">
+                        <picture class="w-100 how-it-work-picture">
+                            <img src="dump/Group%2026.jpg" alt="bg tabs" class="img-fluid">
+                        </picture>
+                    </div>
+                    <button class="btn btn-lg btn-danger meal-plan-btn">
+                        Select your meal plan
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-lg-5 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-10 mx-auto text-center my-5">
+                    <h3 class="h2 font-weight-bold">Feed Your Cravings with Deliciously Real Food.</h3>
+                    <p class="h6">
+                        Naturally Rich Ingredients, Bursting with Flavor.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid px-0 bg-dark-custom">
+            <div class="row mx-0">
+                <div class="col-auto px-0">
+                    <img src="dump/Rectangle%2020.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-lg-6 float-right text-light p-lg-5 p-3 d-flex align-items-center">
+                    <div class="col-lg-10">
+                        <h3 class="text-white h3 font-weight-bold">Cheddar Spinach Frittata with Paprika Chicken</h3>
+                        <h5 class="font-weight-bold mt-lg-5 mt-3">Nutrition facts</h5>
+                        <ul class="d-grid grid-col-xs-3 grid-col-lg-3 py-3 list-unstyled list-items-with-icon">
+                            <li class="border-right">
+                                <div class="li-caption">
+                                    <span class="w-100 d-block text-muted mb-3">Spinach</span>
+                                    <h5 class="h5 font-weight-bold">Iron, fiber</h5>
+                                </div>
+                            </li>
+                            <li class="border-right">
+                                <div class="li-caption">
+                                    <span class="w-100 d-block text-muted mb-3">Cheese</span>
+                                    <h5 class="h5 font-weight-bold">Calcium</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li-caption">
+                                    <span class="w-100 d-block text-muted mb-3">Egg</span>
+                                    <h5 class="h5 font-weight-bold">Vitamin b12</h5>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="py-lg-3 pt-3 pb-5">
+                            <button class="btn btn-block btn-danger px-lg-5 btn-lg">Choose your plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="py-lg-5 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-10 mx-auto text-center mb-5">
+                    <h3 class="h2 font-weight-bold">Questions about our meal delivery?</h3>
+                    <p class="h6">
+                        Unlike meal kit delivery services which require cooking and cleaning, our meals are delivered
+                        ready to eat in 3 minutes. Our goal is to make healthy eating simple and fun, without skimping
+                        on flavor. Have a question about our delivery service?
+                    </p>
+                </div>
+                <div class="col-12 col-lg-10 mx-auto">
+                    <div id="accordion" class="custom-accordion">
+                        <div class="card">
+                            <div id="headingOne">
+                                <a class="d-block accordion-header border-bottom trigger text-dark font-weight-bold"
+                                   href="#collapseOne" data-toggle="collapse" data-target="#collapseOne"
+                                   aria-expanded="true" aria-controls="collapseOne">
+                                    <i class="fa fa-plus"></i> Can I still eat other foods I like? How does the Meal
+                                    Plan work?
+                                </a>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a class="d-block accordion-header border-bottom text-dark  font-weight-bold collapsed"
+                               href="#collapseTwo" data-toggle="collapse" data-target="#collapseTwo"
+                               aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-plus"></i> What if I don’t eat them all straight away?
+                            </a>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                 data-parent="#accordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                    brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
+                                    ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                    accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="py-5 bg-dark-custom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-4">
+                <img src="assets/images/logo-white.svg" alt="logo">
+                <div class="mt-4">
+                    <a href="tel:9272682292" class="d-block text-light">+91 9272682292</a>
+                    <a href="mailto:hello@ifuntionalfood.com" class="d-block text-light">hello@ifuntionalfood.com</a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 text-light text-lg-right d-flex flex-wrap align-items-center">
+                <div class="w-100 py-2">
+                    <a href="#" class="text-light px-lg-3 pl-0 pr-3"> <i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="text-light px-3"> <i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-light px-3"> <i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+                <div class="py-4 py-lg-2 w-100">
+                    <a href="#" class="text-light pl-0 pr-2"> About us</a>
+                    <a href="#" class="text-light px-2"> Terms</a>
+                    <a href="#" class="text-light px-2"> Privacy</a>
+                    <a href="#" class="text-light px-2"> Contact</a>
+                </div>
+                <div class="py-2 w-100">
+                    <p>iFuntionalFood © 2020 | All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="assets/vendors/jquery/jquery.min.js"></script>
+<script src="assets/vendors/bootstrap/dist/js/popper.min.js"></script>
+<script async src="assets/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/style/dist/js/custom.js"></script>
+
+<link rel="stylesheet" href="assets/vendors/owl/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/vendors/owl/dist/assets/owl.theme.default.min.css">
+<script src="assets/vendors/owl/dist/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+
+        //Owl Slide using for program
+        $('#owlHeroBanner').owlCarousel({
+            stagePadding: 0,
+            margin: 0,
+            loop: false,
+            nav: false,
+            dots: true,
+            items: 1,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: false
+        });
+
+    });
+</script>
+
+</body>
+
+</html>
